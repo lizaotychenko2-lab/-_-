@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:white;
+    color:#222;
+}
+.container{max-width:900px; margin:auto;}
+.nav{display:flex; gap:10px; margin-bottom:20px;}
+.nav a{
+    padding:8px 12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    text-decoration:none;
+    color:#222;
+    font-weight:bold;
+}
+.card{
+    background:#fafafa;
+    padding:15px;
+    border:1px solid #eee;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+h1{margin-top:0;}
+.resp-img{max-width:100%; height:auto; border:1px solid #eee; border-radius:8px;}
